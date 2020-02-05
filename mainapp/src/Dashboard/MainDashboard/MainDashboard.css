@@ -1,0 +1,138 @@
+.sideBarCard {
+  position: relative;
+  top: -2%;
+  left: 1px;
+}
+
+.sideBarCard .ui.card {
+  border-radius: 0px;
+}
+
+.sideBarCard button.ui.green.button {
+  font-size: 12px;
+  border-radius: 30px;
+  position: relative;
+  left: 13%;
+}
+
+.mainSection {
+  position: relative;
+  left: 15%;
+}
+
+.mainSection h4.ui.header {
+  font-weight: 300;
+  font-size: 11px;
+  margin-top: 29px;
+  font-family: Segoe UI;
+}
+
+.overViewSection {
+  background: #18a0fb;
+  padding: 14px;
+  margin-left: -5%;
+  margin-top: 8%;
+  width: 110%;
+  border-left: 2px solid black;
+  color: black;
+}
+
+.overViewSection h4.ui.header {
+  font-weight: 300;
+  position: relative;
+  left: 13%;
+  font-size: 13px;
+}
+
+.overViewSection i.compass.outline.icon {
+  font-weight: 100;
+}
+
+.paymentSection {
+  position: relative;
+  left: 15%;
+}
+
+.paymentSection h4.ui.header {
+  font-weight: 300;
+  font-size: 11px;
+  margin-top: 29px;
+  font-family: Segoe UI;
+}
+
+.allPaymentsSection h4.ui.header {
+  position: relative;
+  left: 14%;
+  font-weight: 100;
+  margin-top: 20px;
+  font-size: 13px;
+}
+
+.reconciledPaymentSection h4.ui.header {
+  position: relative;
+  left: 14%;
+  font-weight: 100;
+  margin-top: 20px;
+  font-size: 13px;
+}
+
+.unReconciledPaymentSection h4.ui.header {
+  position: relative;
+  left: 14%;
+  font-weight: 100;
+  margin-top: 20px;
+  font-size: 13px;
+}
+
+.manualSettlementSection h4.ui.header {
+  position: relative;
+  left: 14%;
+  font-weight: 100;
+  margin-top: 20px;
+  font-size: 13px;
+}
+
+.ordersSection {
+  position: relative;
+  left: 15%;
+}
+
+.ordersSection h4.ui.header {
+  font-weight: 300;
+  font-size: 11px;
+  margin-top: 29px;
+  font-family: Segoe UI;
+}
+
+.allOrdersSection h4.ui.header {
+  position: relative;
+  left: 14%;
+  font-weight: 100;
+  margin-top: 20px;
+  font-size: 13px;
+}
+
+.pendingOrdersSection h4.ui.header {
+  position: relative;
+  left: 14%;
+  font-weight: 100;
+  margin-top: 20px;
+  font-size: 13px;
+}
+
+.reconciledOrdersSection h4.ui.header {
+  position: relative;
+  left: 14%;
+  font-weight: 100;
+  margin-top: 20px;
+  font-size: 13px;
+}
+
+.merchantProfileSection h4.ui.header {
+  position: relative;
+  left: 14%;
+  font-weight: 100;
+  margin-top: 20px;
+  font-size: 13px;
+}
+/*# sourceMappingURL=MainDashboard.css.map */
