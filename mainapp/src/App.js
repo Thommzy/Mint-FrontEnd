@@ -1,9 +1,13 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
+import Index from "./Dashboard/Index";
 
 function App() {
-  return <div className="App">FrontEnd Mint Begin</div>;
+  return (
+    <div className="">
+      <Index />
+    </div>
+  );
 }
 
 export default App;
