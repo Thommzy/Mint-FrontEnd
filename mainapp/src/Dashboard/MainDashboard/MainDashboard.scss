@@ -6,6 +6,7 @@
   left: 1px;
   .ui.card {
     border-radius: 0px;
+    box-shadow: none;
   }
   button.ui.green.button {
     font-size: 12px;
@@ -144,4 +145,53 @@
     margin-top: 20px;
     font-size: 13px;
   }
+}
+
+.secondLowerPart {
+  background: #e5e5e5;
+  margin-left: -205px;
+}
+
+.firstCard {
+  .meta {
+    font-size: 13px !important;
+  }
+  .ui.card {
+    border-radius: 0px;
+    box-shadow: none !important;
+  }
+}
+
+.secondCard {
+  .meta {
+    font-size: 13px !important;
+  }
+  .ui.card {
+    border-radius: 0px;
+    box-shadow: none !important;
+  }
+}
+.thirdCard {
+  .meta {
+    font-size: 13px !important;
+  }
+  .ui.card {
+    border-radius: 0px;
+    box-shadow: none !important;
+  }
+}
+.fourthCard {
+  .meta {
+    font-size: 13px !important;
+  }
+  .ui.card {
+    border-radius: 0px;
+    box-shadow: none !important;
+  }
+}
+
+.secondLowerPart {
+  width: 1076px;
+  padding-left: 49px;
+  padding-right: 66px;
 }
