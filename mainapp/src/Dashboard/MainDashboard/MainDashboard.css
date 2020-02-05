@@ -188,4 +188,22 @@
   padding-left: 49px;
   padding-right: 66px;
 }
+
+.TableReal table.ui.basic.table {
+  border-radius: 0px;
+  background: #ffffff;
+}
+
+.paymentPic p {
+  background: #7f8fa4;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 11px;
+  line-height: 16px;
+  padding: 5px;
+}
+
+.paymentPic h4.ui.header {
+  position: absolute;
+}
 /*# sourceMappingURL=MainDashboard.css.map */

@@ -3,6 +3,8 @@ import { Grid } from "semantic-ui-react";
 import Sidebarr from "./Sidebarr";
 import "./MainDashboard.css";
 import FirstLayer from "./FirstLayer";
+import PaymentTable from "../PaymentTable/PaymentTable";
+import TableMain from "../PaymentTable/TableMain";
 
 class MainDashboard extends Component {
   render() {
@@ -15,6 +17,8 @@ class MainDashboard extends Component {
           <Grid.Column mobile={16} tablet={8} computer={10}>
             <div className="secondLowerPart">
               <FirstLayer />
+              <PaymentTable />
+              <TableMain />
             </div>
           </Grid.Column>
         </Grid>
