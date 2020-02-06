@@ -272,4 +272,13 @@
   font-weight: bolder;
   margin-top: -4%;
 }
+
+.lowerlayer {
+  margin-top: 24px;
+}
+
+.textLow {
+  margin-top: 3%;
+  font-size: 13px;
+}
 /*# sourceMappingURL=MainDashboard.css.map */
