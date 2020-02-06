@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Table, Header } from "semantic-ui-react";
+import { Table, Header, Button } from "semantic-ui-react";
 
 class TableMain extends Component {
   render() {
@@ -24,21 +24,160 @@ class TableMain extends Component {
                 </Table.Cell>
                 <Header as="h4">Apple Mac Book 15' 250 SSD 12GB</Header>
               </div>
-              <Table.Cell>Approved</Table.Cell>
-              <Table.Cell>None</Table.Cell>
+              <Table.Cell>$73430</Table.Cell>
+              <Table.Cell>1234567890</Table.Cell>
               <Table.Cell>12:30</Table.Cell>
+              <Table.Cell>
+                <div className="reconciledButton">
+                  <Button color="white">
+                    <p>.</p> Reconciled
+                  </Button>
+                </div>
+              </Table.Cell>
             </Table.Row>
             <Table.Row>
-              <Table.Cell>Jamie</Table.Cell>
-              <Table.Cell>Approved</Table.Cell>
-              <Table.Cell>Requires call</Table.Cell>
+              <div className="paymentPic">
+                <Table.Cell>
+                  <p>VW</p>
+                </Table.Cell>
+                <Header as="h4">Apple Mac Book 15' 250 SSD 12GB</Header>
+              </div>
+              <Table.Cell>$73430</Table.Cell>
+              <Table.Cell>1234567890</Table.Cell>
               <Table.Cell>12:30</Table.Cell>
+              <Table.Cell>
+                <div className="pendingButton">
+                  <Button color="white">
+                    <p>.</p> Pending
+                  </Button>
+                </div>
+              </Table.Cell>
             </Table.Row>
             <Table.Row>
-              <Table.Cell>Jill</Table.Cell>
-              <Table.Cell>Denied</Table.Cell>
-              <Table.Cell>None</Table.Cell>
+              <div className="paymentPic">
+                <Table.Cell>
+                  <p>VW</p>
+                </Table.Cell>
+                <Header as="h4">Apple Mac Book 15' 250 SSD 12GB</Header>
+              </div>
+              <Table.Cell>$73430</Table.Cell>
+              <Table.Cell>1234567890</Table.Cell>
               <Table.Cell>12:30</Table.Cell>
+              <Table.Cell>
+                <div className="reconciledButton">
+                  <Button color="white">
+                    <p>.</p> Reconciled
+                  </Button>
+                </div>
+              </Table.Cell>
+            </Table.Row>
+            <Table.Row>
+              <div className="paymentPic">
+                <Table.Cell>
+                  <p>VW</p>
+                </Table.Cell>
+                <Header as="h4">Apple Mac Book 15' 250 SSD 12GB</Header>
+              </div>
+              <Table.Cell>$73430</Table.Cell>
+              <Table.Cell>1234567890</Table.Cell>
+              <Table.Cell>12:30</Table.Cell>
+              <Table.Cell>
+                <div className="reconciledButton">
+                  <Button color="white">
+                    <p>.</p> Reconciled
+                  </Button>
+                </div>
+              </Table.Cell>
+            </Table.Row>
+            <Table.Row>
+              <div className="paymentPic">
+                <Table.Cell>
+                  <p>VW</p>
+                </Table.Cell>
+                <Header as="h4">Apple Mac Book 15' 250 SSD 12GB</Header>
+              </div>
+              <Table.Cell>$73430</Table.Cell>
+              <Table.Cell>1234567890</Table.Cell>
+              <Table.Cell>12:30</Table.Cell>
+              <Table.Cell>
+                <div className="pendingButton">
+                  <Button color="white">
+                    <p>.</p> Pending
+                  </Button>
+                </div>
+              </Table.Cell>
+            </Table.Row>
+            <Table.Row>
+              <div className="paymentPic">
+                <Table.Cell>
+                  <p>VW</p>
+                </Table.Cell>
+                <Header as="h4">Apple Mac Book 15' 250 SSD 12GB</Header>
+              </div>
+              <Table.Cell>$73430</Table.Cell>
+              <Table.Cell>1234567890</Table.Cell>
+              <Table.Cell>12:30</Table.Cell>
+              <Table.Cell>
+                <div className="unReconciledButton">
+                  <Button color="white">
+                    <p>.</p> Un-Reconciled
+                  </Button>
+                </div>
+              </Table.Cell>
+            </Table.Row>
+            <Table.Row>
+              <div className="paymentPic">
+                <Table.Cell>
+                  <p>VW</p>
+                </Table.Cell>
+                <Header as="h4">Apple Mac Book 15' 250 SSD 12GB</Header>
+              </div>
+              <Table.Cell>$73430</Table.Cell>
+              <Table.Cell>1234567890</Table.Cell>
+              <Table.Cell>12:30</Table.Cell>
+              <Table.Cell>
+                <div className="reconciledButton">
+                  <Button color="white">
+                    <p>.</p> Reconciled
+                  </Button>
+                </div>
+              </Table.Cell>
+            </Table.Row>
+            <Table.Row>
+              <div className="paymentPic">
+                <Table.Cell>
+                  <p>VW</p>
+                </Table.Cell>
+                <Header as="h4">Apple Mac Book 15' 250 SSD 12GB</Header>
+              </div>
+              <Table.Cell>$73430</Table.Cell>
+              <Table.Cell>1234567890</Table.Cell>
+              <Table.Cell>12:30</Table.Cell>
+              <Table.Cell>
+                <div className="unReconciledButton">
+                  <Button color="white">
+                    <p>.</p> Un-Reconciled
+                  </Button>
+                </div>
+              </Table.Cell>
+            </Table.Row>
+            <Table.Row>
+              <div className="paymentPic">
+                <Table.Cell>
+                  <p>VW</p>
+                </Table.Cell>
+                <Header as="h4">Apple Mac Book 15' 250 SSD 12GB</Header>
+              </div>
+              <Table.Cell>$73430</Table.Cell>
+              <Table.Cell>1234567890</Table.Cell>
+              <Table.Cell>12:30</Table.Cell>
+              <Table.Cell>
+                <div className="pendingButton">
+                  <Button color="white">
+                    <p>.</p> Pending
+                  </Button>
+                </div>
+              </Table.Cell>
             </Table.Row>
           </Table.Body>
         </Table>

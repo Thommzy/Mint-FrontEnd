@@ -10,7 +10,7 @@ class PaymentTable extends Component {
           <div>
             <Header as="h2">Payments</Header>
           </div>
-          <div>
+          <div className="tableHeader">
             <Grid>
               <Grid.Column mobile={16} tablet={8} computer={2}>
                 Showing

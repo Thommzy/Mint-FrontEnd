@@ -5,6 +5,7 @@ import "./MainDashboard.css";
 import FirstLayer from "./FirstLayer";
 import PaymentTable from "../PaymentTable/PaymentTable";
 import TableMain from "../PaymentTable/TableMain";
+import LowerLayer from "./LowerLayer";
 
 class MainDashboard extends Component {
   render() {
@@ -19,6 +20,7 @@ class MainDashboard extends Component {
               <FirstLayer />
               <PaymentTable />
               <TableMain />
+              <LowerLayer />
             </div>
           </Grid.Column>
         </Grid>
