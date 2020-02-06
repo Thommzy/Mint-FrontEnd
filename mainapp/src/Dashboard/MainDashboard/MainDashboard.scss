@@ -296,3 +296,63 @@
   margin-top: 3%;
   font-size: 13px;
 }
+
+.GraphTitle {
+  background: #ffffff;
+  margin-top: 20px;
+  width: 127%;
+}
+
+.graphDate {
+  button.ui.button {
+    background: white;
+    box-shadow: 2px 1px 4px #888888;
+    padding-left: 10px;
+    padding-right: 46px;
+  }
+}
+
+.dateText {
+  margin-left: 13px;
+  margin-top: 8px;
+}
+
+.orderTitle {
+  .ui.header {
+    font-size: 13px;
+  }
+}
+
+.progressBar {
+  margin-top: 13px;
+  background: #fdc203;
+}
+
+.topCard {
+  width: 77%;
+  margin-left: 23%;
+}
+
+.lowerCard {
+  width: 77%;
+  margin-left: 23%;
+}
+
+.pendStatus {
+  .ui.header {
+    font-size: 13px;
+  }
+}
+
+.reconStatus {
+  margin-top: 11px;
+  .ui.header {
+    font-size: 13px;
+  }
+}
+.totalStatus {
+  margin-top: 11px;
+  .ui.header {
+    font-size: 13px;
+  }
+}
